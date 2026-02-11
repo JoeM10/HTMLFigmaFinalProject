@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1280px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+header{
+    width: 1280px;
+    height: 700px;
+    background-color: #080808;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-rectangle{
+    display: flex;
+    justify-content: center;
+    position: top;
+    top: 0;
+    left: 85px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1110px;
+    height: 70px;
+    background-color: #1b1b1b;
+    border-radius: 0 0 8px 8px;
+}
+
+.top-menu-items{
+    display: flex;
+    position: relative;
+    gap: 70px;
+    list-style: none;
+    width: 717px;
+    height: 18px;
+    align-items: center;
+    top: 24px;
+}
+
+.top-menu-items a{
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: #9C9C9C;
+}
+
+.socialLinks{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    top: 26px;
+    width: 107.54px;
+    height: 17px;
+    list-style: none;
+}
+
+.behanceLogo{
+    width: 21.6px;
+    height: 13.63px;
+}
+
+.twitterLogo{
+    width: 17.54px;
+    height: 14.28px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 538px;
+    height: 247px;
+}
+
+.heading-subheading{
+    display: flex;
+    flex-direction: column;
+    width: 492px;
+    height: 154px;
+    gap: 10px;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    font-family: "Raleway";
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0;
+    width: 426px;
+    height: 72px;
+}
+
+.heading-subheading p{
+    font-family: "IBM Plex Mono";
+    color: #9c9c9c;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    width: 492px;
+    height: 72px;
+}
+
+.get-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 307.89px;
+    height: 63px;
+    border-radius: 4px;
+    border: solid 1px #62ba1b;
+    padding: 21px 64px;
+    background-color: #3f8e00;
+    text-decoration: none;
+    box-shadow: 0px 8px 30px 0px #3F8E0080;
+}
+
+.get-started h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 164px;
+    height: 21px;
+    font-family: "IBM Plex Mono";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+.get-started img{
+    height: 10px;
+    width: 5.89px;
+}
+
+.my-portrait img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.worked-with{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 920px;
+    gap: 20px;
+    padding-bottom: 45px;
+}
+
+.worked-with h4{
+    display: flex;
+    align-items: center;
+    width: 93px;
+    height: 18px;
+    gap: 10px;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #ffffff;
+}
+
+.client-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+    height: 60px;
+}
+
+.client-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #1B1B1B;
+    border-radius: 6px;
+}
