@@ -17,6 +17,8 @@ body{
     margin: auto;
 }
 
+/* ########## Header Section ########## */
+
 header{
     width: 1280px;
     height: 700px;
@@ -216,4 +218,49 @@ header{
     height: 60px;
     border: 1px solid #1B1B1B;
     border-radius: 6px;
+}
+
+/* ########## Case Studies Section ########## */
+.case-studies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 897px;
+    height: 1242px;
+    margin: 80px 176px 80px 207px;
+}
+
+.case-studies h2{
+    width: 213px;
+    height: 40px;
+    gap: 10px;
+    font-family: Raleway;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.case-studies .case-intro-p{
+    width: 570px;
+    height: 72px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+
+.study1, 
+.study2, 
+.study3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
