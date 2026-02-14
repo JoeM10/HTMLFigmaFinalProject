@@ -417,7 +417,7 @@ header{
     overflow: hidden;
 }
 
-/* ########## Case Studies Section ########## */
+/* ########## Testimonials Section ########## */
 .testimonials{
     width: 1280px;
     height: 804px;
@@ -577,4 +577,178 @@ header{
     text-align: center;
     vertical-align: bottom;
     color: #FFFFFF;
+}
+
+/* ########## Recent Work Section ########## */
+.recent-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1109.89px;
+    height: 676px;
+    margin: 80px 85.11px 79px 85px;
+}
+
+.recent-work h2{
+    width: 211px;
+    height: 40px;
+    font-family: Raleway;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: bottom;
+    color: #080808;
+    margin-bottom: 10px;
+}
+
+.recent-work-intro{
+    width: 570px;
+    height: 72px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: center;
+    color: #9C9C9C;
+}
+
+.work-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.work-card{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 494px;
+    gap: 20px;
+}
+
+.work-image{
+    margin-bottom: 20px;
+}
+
+.work-card h5{
+    width: 192px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: #080808;
+}
+
+.work-card p{
+    width: 421px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: #9C9C9C;
+}
+
+.know-more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 139.89px;
+    height: 38px;
+    border: 1px solid #62BA1B;
+    background-color: #3f8e00;
+    border-radius: 4px;
+    box-shadow: 0px 8px 30px 0px #3F8E004D;
+    text-decoration: none;
+}
+
+.know-more-button div{
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.know-more-button div span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 18px;
+    font-family: IBM Plex Mono;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.left-right-buttons{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 1109.89px;
+    height: 676px;
+}
+
+.left-arrow-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29.89285659790039px;
+    height: 30px;
+    top: 414px;
+    left: -0px;
+    border-radius: 54px;
+    border-width: 1px;
+    opacity: 1;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    border: 1px solid #9C9C9C
+}
+
+.right-arrow-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29.89285659790039px;
+    height: 30px;
+    top: 414px;
+    left: 1080px;
+    border-radius: 54px;
+    border-width: 1px;
+    opacity: 1;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    border: 1px solid #9C9C9C
 }
