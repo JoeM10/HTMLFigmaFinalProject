@@ -7,32 +7,32 @@
     <link rel="stylesheet" href="styles.css" class="styles">
 </head>
 <body>
-    <header>
-        <nav class="top-rectangle">
-            <div class="navbar">
-                <ul class="top-menu-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Recent Work</a></li>
-                    <li><a href="#">Get In Touch</a></li>
-                </ul>
-                <ul class="socialLinks">
-                    <li><a href="#">
-                        <img src="images/socialLogos/LinkedIn.svg" class="linkedInLogo" alt="LinkedIn Social Media Link"/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="images/socialLogos/Behance.svg" class="behanceLogo" alt="Behance Social Media Link"/>
-                    </a></li>
-                    <li><a href="#">
-                        <img src="images/socialLogos/Twitter.svg" class="twitterLogo" alt="Twitter Social Media Link"/>
-                    </a></li>
-                </ul>
-            </div>
-        </nav>
-        
+    <nav class="top-rectangle">
+        <div class="navbar">
+            <ul class="top-menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#recent-work">Recent Work</a></li>
+                <li><a href="#get-in-touch">Get In Touch</a></li>
+            </ul>
+            <ul class="socialLinks">
+                <li><a href="https://www.linkedin.com/in/josephrmcdaniel/">
+                    <img src="images/socialLogos/LinkedIn.svg" class="linkedInLogo" alt="LinkedIn Social Media Link"/>
+                </a></li>
+                <li><a href="https://github.com/JoeM10/">
+                    <img src="images/socialLogos/Behance.svg" class="behanceLogo" alt="Behance Social Media Link"/>
+                </a></li>
+                <li><a href="https://github.com/JoeM10/">
+                    <img src="images/socialLogos/Twitter.svg" class="twitterLogo" alt="Twitter Social Media Link"/>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="hero">
+
+    <header>
+        <div class="hero" id="home">
             <div class="hero-text">
                 <div class="heading-subheading">
                     <h1 class="heading">Joseph McDaniel</h1>
@@ -75,7 +75,7 @@
     </header>
 
 
-    <section class="case-studies">
+    <section class="case-studies" id="case-studies">
         <h2>Case Studies</h2>
         <p class="case-intro-p">
             Solving user & business problems since last 15+ years.
@@ -145,7 +145,7 @@
     </section>
 
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <h2>Testimonials</h2>
         <p class="testimonials-intro-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -202,7 +202,7 @@
     </section>
 
 
-    <section class="recent-work">
+    <section class="recent-work" id="recent-work">
         <h2>Recent Work</h2>
         <p class="recent-work-intro">
             Solving user & business problems since last 15+ years.<br>
@@ -251,7 +251,7 @@
     </section>
 
 
-    <section class="get-in-touch">
+    <section class="get-in-touch" id="get-in-touch">
         <h2>Get In Touch</h2>
         <p class="get-in-touch-intro">
             Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -269,7 +269,7 @@
             </div>
             <div class="message-box">
                 <label for="message" class="message-label">Message</label>
-                <textarea class="message-input" type="text" name="message" id="message" placeholder="Enter your message" required ></textarea>
+                <textarea class="message-input" name="message" id="message" placeholder="Enter your message" required ></textarea>
             </div>
         </form>
         <button type="submit" class="submit-button">
@@ -277,5 +277,10 @@
             <img src="images/arrows/right-arrow.svg"/>
         </button>
     </section>
+
+
+    <footer>
+        <span>Made with ❤️</span>
+    </footer>
 </body>
 </html>
