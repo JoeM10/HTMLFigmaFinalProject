@@ -25,9 +25,9 @@ I have added several features to my version such as, jump links, working social 
 - | recentWorkImages
 - | socialLogos
 
-## Licnese
+## License
 - MIT
 
 ## Author
-- Creater by Joseph McDaniel
+- Created by Joseph McDaniel
 - Github: https://github.com/JoeM10/
